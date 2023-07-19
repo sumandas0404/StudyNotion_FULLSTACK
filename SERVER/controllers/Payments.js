@@ -135,14 +135,14 @@ exports.verifySignature = async (req, res) => {
                 //mail send krdo confirmation wala 
                 const emailResponse = await mailSender(
                                         enrolledStudent.email,
-                                        "Congratulations from StudyNotion",
-                                        "Congratulations, you are onboarded into new StudyNotion Course",
+                                        "Congratulations from CodeHelp",
+                                        "Congratulations, you are onboarded into new CodeHelp Course",
                 );
 
                 console.log(emailResponse);
                 return res.status(200).json({
                     success:true,
-                    message:"Signature Verified and Course Added",
+                    message:"Signature Verified and COurse Added",
                 });
 
 
