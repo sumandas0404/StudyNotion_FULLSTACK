@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo/Logo-Full-Light.png";
 
 // Icons
-import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub  } from "react-icons/fa";
+import {BsFilePerson} from "react-icons/bs";
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
@@ -46,11 +47,17 @@ const Footer = () => {
                   );
                 })}
               </div>
+              <h1 className="text-richblack-50 font-semibold text-[16px]">
+                Developer's Details
+              </h1>
+              <h1 className="text-richblack-50 font-semibold text-[14px]">
+                <em>~ Suman Das</em>
+              </h1>
               <div className="flex gap-3 text-lg">
-                <FaFacebook />
-                <FaGoogle />
-                <FaTwitter />
-                <FaYoutube />
+                <a href="https://port-folio-pink.vercel.app/" target="_blank"><BsFilePerson /></a>
+                <a href="https://www.facebook.com/profile.php?id=100075867442618" target="_blank" ><FaFacebook /></a>
+                <a href="https://www.linkedin.com/in/suman-das-82480a224/" target="_blank"> <FaLinkedin /></a>
+                <a href="https://github.com/sumandas0404" target="_blank"> <FaGithub /></a>
               </div>
               <div></div>
             </div>
@@ -172,7 +179,8 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made with ❤️ CodeHelp © 2023 Studynotion</div>
+          <div className="text-center">Copyrights reserved @StudyNotion ❤️</div>
+          <div className="text-center">Developer: Suman Das ❤</div>
         </div>
       </div>
     </div>

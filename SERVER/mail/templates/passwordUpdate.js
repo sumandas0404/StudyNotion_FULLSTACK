@@ -66,7 +66,7 @@ exports.passwordUpdated = (email, name) => {
             </div>
             <div class="support">If you have any questions or need further assistance, please feel free to reach out to us
                 at
-                <a href="mailto:info@studynotion.com">info@studynotion.com</a>. We are here to help ~ SUMAN DAS ❤️
+                <a href="mailto:sumandas63637@gmail.com">info@studynotion.com</a>. We are here to help! <br>Developed by ~ Suman Das ❤  
             </div>
         </div>
     </body>
